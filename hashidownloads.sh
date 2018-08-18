@@ -19,9 +19,9 @@ sudo cp vault /usr/bin/
 sudo cp consul /usr/bin/
 sudo cp terraform /usr/bin/
 
-sudo chown gwhite:root /usr/bin/vault
-sudo chown gwhite:root /usr/bin/consul
-sudo chown gwhite:root /usr/bin/terraform
+sudo chown $USER:root /usr/bin/vault
+sudo chown $USER:root /usr/bin/consul
+sudo chown $USER:root /usr/bin/terraform
 
 echo Testing files
 
