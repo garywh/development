@@ -29,6 +29,8 @@ vault --version
 consul --version
 terraform --version
 
+vault -autocomplete-install
+
 echo Cleaning up
 
 rm vault*
