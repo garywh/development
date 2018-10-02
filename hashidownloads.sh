@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt install unzip
+
 echo Getting VAULT 0.10.4
 wget https://releases.hashicorp.com/vault/0.10.4/vault_0.10.4_linux_amd64.zip
 echo Getting Consul 1.2.2
