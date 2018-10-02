@@ -20,6 +20,6 @@ sudo add-apt-repository \
 sudo apt-get update
 
 sudo apt-get -y install docker-ce
-sudo usermod -a -G docker $USER
+sudo usermod -a -G docker vagrant
 
 echo Reboot Needed for docker to work as user
