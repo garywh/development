@@ -19,7 +19,7 @@ sudo add-apt-repository \
 
 sudo apt-get update
 
-sudo apt-get install docker-ce /y
+sudo apt-get -y install docker-ce
 sudo usermod -a -G docker $USER
 
 echo Reboot Needed for docker to work as user
